@@ -14,7 +14,7 @@ export class LoginPage implements OnInit {
   
 
  correo: string = 'ruben.tornero.cerrillo@cieep.com';
- password: string = '123456';
+ password: string = 'Tornero123';
 
 
   constructor(private router: Router) { 

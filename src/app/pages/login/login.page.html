@@ -11,27 +11,28 @@
 
 
 
-<div class="wrap-input100 m-b-16" class="correo">
+<div class="wrap-input100 m-b-16" >
     <input class="input100" 
            type="text" 
            name="email" 
            [(ngModel)]="usuario.email"
            required
            email
-           placeholder="Email">
+           placeholder="Email" class="correo">
 
     <span class="focus-input100"></span>
 </div>
 
 
-<div class="wrap-input100 m-b-16" class="password">
+<div class="wrap-input100 m-b-16" >
     <input class="input100"
            type="password" 
            name="password" 
            [(ngModel)]="usuario.password"
            required
-           minlength="6"
-           placeholder="Password">
+           minlength="8"
+           pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$"
+           placeholder="Password" class="password">
     <span class="focus-input100"></span>
 </div>
 

@@ -13,25 +13,35 @@ export class ListaVacantesPage implements OnInit {
   vacantesLista: any=[
     {
       "titulo": "titulo vacante1",
-      "fecha": "2020-04-14"
+      "fecha": "2020-04-14",
+      "puesto": "Programador/a web",
+      "lorem": "lorem ipsum dolor sit amet"
     },
     {
       "titulo": "titulo vacante2",
-      "fecha": "2020-04-14"
+      "fecha": "2020-04-14",
+      "puesto": "Programador/a web",
+      "lorem": "lorem ipsum dolor sit amet"
     },
     {
       "titulo": "titulo vacante3",
-      "fecha": "2020-04-14"
+      "fecha": "2020-04-14",
+      "puesto": "Programador/a web",
+      "lorem": "lorem ipsum dolor sit amet"
     },
     {
       "titulo": "titulo vacante4",
-      "fecha": "2020-04-14"
+      "fecha": "2020-04-14",
+      "puesto": "Programador/a web",
+      "lorem": "lorem ipsum dolor sit amet"
     }
   ];
   hola: any=[
     {
       "titulo": "titulo vacante1",
-      "fecha": "2020-04-14"
+      "fecha": "2020-04-14",
+      "puesto": "Programador/a web",
+      "lorem": "lorem ipsum dolor sit amet"
     }
   ];
 
