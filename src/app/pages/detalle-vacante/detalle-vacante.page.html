@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar class="toolbar">
+    
+    <img src="assets/back.svg" class="Back"[routerLink]="[ '/lista-vacantes']">
+    <ion-title class="toolbar-tittle">Vacantes</ion-title>
+
+    
+   
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-list>
+  <div>
+<ion-label>{{vacante.titulo}}</ion-label>
+  </div>
+
+  <div>
+    <ion-label>Programador/a web</ion-label>
+  </div>
+  <div>
+    <ion-label>{{vacante.fecha}}</ion-label>
+  </div>
+  <div>
+    <ion-label>Lorem ipsum dolor sit amet</ion-label>
+  </div>
+  <ion-button href="https://youtube.com" class="Rectangle">
+    MAS INFORMACIÓN
+  </ion-button>
+</ion-list>
+</ion-content>

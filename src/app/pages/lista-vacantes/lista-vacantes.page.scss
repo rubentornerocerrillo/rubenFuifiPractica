@@ -1,0 +1,39 @@
+.primero{
+    box-sizing: 60%;
+    float: left;
+}
+.segundo{
+    box-sizing: 40%;
+    float: right;
+}
+.toolbar{
+    
+    margin: 0 0 12px;
+  padding: 20px 0 0;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  --background: #c00000;
+}
+.toolbar-tittle{
+    font-family: Roboto;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.Back {
+    width: 28px;
+    height: 28px;
+    margin: 0 1px 0 0;
+    object-fit: contain;
+}
+.Frame {
+    width: 30.7%;
+    height: 204px;
+    padding: 15px 19px 11px 20px;
+  }
+  
